@@ -9,7 +9,7 @@
 
 - What is new? (or what is previous issue)<br>
  This study applied the similar structure to VGG-19 (very deep structure), which has the inception layers that can provid the multi-scale semantic features, instead of the CNN ensemble (previous study).
- Also, to prevent from responding to the specific pattern of location, the two dilated conv layers (location-biased convolution) were combined in front of the last 1x1 convolutionl layer.<br>
+ Also, to prevent from responding to the specific pattern of location, the two fully-convolution layers with a dilated conv (location-biased convolution) were combined in front of the last 1x1 convolutionl layer.<br>
  
   - Large depths which enables to learn complex features from scenes
     - previous study utilized shallower network, and the semantic feature extracting was difficult<br>
@@ -30,16 +30,23 @@
  This may follow one hypothesis of visual working memory, which combines object details from different viewpoint to understand objects [2].
 
 - What would I want to know furthermore?<br>
- 
+  - Whether saliency and classification match where they are looking
+    - Based on 
 
 - Dataset<br>
- SALICON, CAT2000, MIT1003, MIT300
+  - 1st stage: SALICON (pretrained)
+  - 2nd stage: CAT2000, MIT1003, MIT300
  
+- Initialization<br>
+  - The first 16 Convolution layers: VGG16's weights
+  - Inception block: zero mean Gaussian distribution
+  - LBC layers: zero mean Gaussian distribution
+
 - Ebaluation method<br>
  The followings were applied: Earth Mover’s Distance, Normalized Scanpath Saliency, Linear Correlation Coefficient, Similarity metric, and AUC.
  Also, ablation analysis for the effect of LBD layers was done.
  
 
 - Citation<br>
-  [Multi-Scale Context Aggregation by Dilated Convolutions](https://arxiv.org/abs/1511.07122v3)<br>
-  [Visual working memory as visual attention sustained internally over time](https://pubmed.ncbi.nlm.nih.gov/21295047/)<br>
+  [1] [Multi-Scale Context Aggregation by Dilated Convolutions](https://arxiv.org/abs/1511.07122v3)<br>
+  [2] [Visual working memory as visual attention sustained internally over time](https://pubmed.ncbi.nlm.nih.gov/21295047/)<br>
