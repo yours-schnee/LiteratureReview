@@ -31,7 +31,7 @@
 
 - What would I want to know furthermore?<br>
   - Whether saliency and classification match where they are looking
-    - Does the narrowing of the focus by a saliency make classifier hard to identify targets?
+    [Question] Does the narrowing of the focus by a saliency make classifier hard to identify targets?
 
 - Dataset<br>
   - 1st stage: SALICON (pretraining)
