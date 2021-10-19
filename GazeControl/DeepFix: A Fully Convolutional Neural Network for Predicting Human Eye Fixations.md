@@ -34,16 +34,17 @@
   - Whether saliency and classification match where they are looking
     - [Question] Does the narrowing of the focus by a saliency make classifier hard to identify targets?
 
-### Dataset<br>
+### Experimental settings
+#### Dataset<br>
   - 1st stage: SALICON (pretraining)
   - 2nd stage: CAT2000, MIT1003, MIT300 (train & test)
  
-### Initialization<br>
+#### Initialization<br>
   - The first 16 Convolution layers: VGG16's weights
   - Inception block: zero mean Gaussian distribution
   - LBC layers: zero mean Gaussian distribution
 
-### Ebaluation method<br>
+#### Ebaluation method<br>
  The followings were applied: Earth Mover’s Distance, Normalized Scanpath Saliency, Linear Correlation Coefficient, Similarity metric, and AUC.
  Also, ablation analysis for the effect of LBD layers was done.
  
