@@ -9,12 +9,12 @@
 
 - What is new? (or what is previous issue)<br>
  This study applied the similar structure to VGG-19 (very deep structure), which has the inception layers that can provid the multi-scale semantic features, instead of the CNN ensemble (previous study).
- Also, to prevent from responding to the specific pattern of location, the fully-connected layer (location-biased convolution) were combined in front of the last 1x1 convolutionl layer.<br>
+ Also, to prevent from responding to the specific pattern of location, the two dilated conv layers (location-biased convolution) were combined in front of the last 1x1 convolutionl layer.<br>
  
   - Large depths which enables to learn complex features from scenes
-    - previous study utilized shallower network, so the semantic feature extracting seemed be difficult<br>
+    - previous study utilized shallower network, and the semantic feature extracting was difficult<br>
   - Different size kernels in parallel by using the inception layer<br>
-  - Large receptive field with a dilated conv to capture the global context of scenes for a saliency map<br>
+  - Large receptive field by two dilated conv to capture the global context of scenes for a saliency map<br>
 
 - Interesting techniques, ideas and methods<br>
  (1) The dilated convolution in the 5-th layer, which seems to aim to reduce the weight initialization tasks.
