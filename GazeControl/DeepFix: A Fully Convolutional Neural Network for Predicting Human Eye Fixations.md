@@ -19,11 +19,9 @@
  (3) Large receptive field to capture the global context of scenes for a saliency map
 
 - Interesting techniques, ideas and methods<br>
-
  (1) The dilated convolution in the 5-th layer, which seems to aim to reduce the weight initialization tasks.
  However, Fisher and Vladlen [1] used this hole as the support for seeing a wide range of information while maintaining a high-frequency.
- Which effect is more influential to this study result?
-
+ Which effect is more influential to this study result?<br>
  (2) The LBC layers, which are dilated conv layers (6 hole), were introduced based on the neuroscience literature.
      
 
