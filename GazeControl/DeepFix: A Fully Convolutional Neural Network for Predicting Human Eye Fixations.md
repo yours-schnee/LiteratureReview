@@ -12,7 +12,7 @@
  Also, to prevent from responding to the specific pattern of location, the fully-connected layer (location-biased convolution) were combined in front of the last 1x1 convolutionl layer.<br>
  
   - Large depths which enables to learn complex features from scenes
-   - previous study utilized shallower network, so the semantic feature extracting seemed be difficult<br>
+    - previous study utilized shallower network, so the semantic feature extracting seemed be difficult<br>
   - Different size kernels in parallel by using the inception layer<br>
   - Large receptive field with a dilated conv to capture the global context of scenes for a saliency map<br>
 
