@@ -3,13 +3,15 @@
 ## S. S. S. Kruthiventi, K. Ayush and R. V. Babu, "[DeepFix: A Fully Convolutional Neural Network for Predicting Human Eye Fixations](https://ieeexplore.ieee.org/document/7937829)"
 
 - Summary<br>
- The bottom-up saliency approach using CNNs could automatically learn about target features, instead of the classical hand-crafted ones.
- To approach this, location-biased convolution
- The ablation study showed that the LBC overcame the traditional techniques of bias addition.
+ Whether the wide-range information by the location-biased convolution (LBC) layers could improve a saliency map was investigated.
+ The ablation study showed that the LBC layers contributed to its performance rather than the traditional techniques of bias addition.
 
 - What is new? (or what is previous issue)<br>
- This study applied the similar structure to VGG-19 (very deep structure), which has the inception layers that can provid the multi-scale semantic features, instead of the CNN ensemble (previous study).
- Also, to prevent from responding to the specific pattern of location, the two fully-convolution layers with a dilated conv (location-biased convolution) were combined in front of the last 1x1 convolutionl layer.<br>
+ This study applied the very deep structure, which has the inception blocks that can provid the multi-scale semantic features, instead of the CNN ensemble (previous study).
+ The two fully-convolution layers with a dilated conv (LBS) layer were combined after inception block.
+ This aims to prevent from responding to the specific pattern of location. <br>
+ 
+ The author's keypoints are as follows,
  
   - Large depths which enables to learn complex features from scenes
     - previous study utilized shallower network, and the semantic feature extracting was difficult<br>
@@ -23,15 +25,13 @@
  (2) The LBC layers, which are dilated conv layers (6 hole), were introduced based on the neuroscience literature.
      
 
-- What is limitation I felt?<br>
-
 - Interesting hypothesis and analysis<br>
  Saliency is well-captured when the semantics are considered from multiple-scales.
- This may follow one hypothesis of visual working memory, which combines object details from different viewpoint to understand objects [2].
+ This may follow one hypothesis of visual working memory, which combines object parts (details?) from different viewpoint to understand objects [2].
 
 - What would I want to know furthermore?<br>
   - Whether saliency and classification match where they are looking
-    [Question] Does the narrowing of the focus by a saliency make classifier hard to identify targets?
+    - [Question] Does the narrowing of the focus by a saliency make classifier hard to identify targets?
 
 - Dataset<br>
   - 1st stage: SALICON (pretraining)
