@@ -11,12 +11,12 @@
  The two fully-convolution layers with a dilated conv (LBS) layer were combined after inception block.
  This aims to prevent from responding to the specific pattern of location. <br>
  
- The author's keypoints are as follows,
+   The author's keypoints are as follows,
  
-  - Large depths which enables to learn complex features from scenes
-    - previous study utilized shallower network, and the semantic feature extracting was difficult<br>
-  - Different size kernels in parallel by using the inception layer<br>
-  - Large receptive field by two dilated conv to capture the global context of scenes for a saliency map<br>
+   - Large depths which enables to learn complex features from scenes
+     - previous study utilized shallower network, and the semantic feature extracting was difficult<br>
+   - Different size kernels in parallel by using the inception layer<br>
+   - Large receptive field by two dilated conv to capture the global context of scenes for a saliency map<br>
 
 - Interesting techniques, ideas and methods<br>
  (1) The dilated convolution in the 5-th layer, which seems to aim to reduce the weight initialization tasks.
