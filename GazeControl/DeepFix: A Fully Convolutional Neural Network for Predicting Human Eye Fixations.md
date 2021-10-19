@@ -9,7 +9,7 @@
  The ablation study showed that the LBC overcame the traditional techniques of bias addition.
 
 
-- What is new? (what is previous issue)
+- What is new? (what is previous issue)<br>
  This study applied the similar structure to VGG-19 (very deep structure), comparing with the previous study.
  The inception layers can provid the multi-scale semantic features, instead of the CNN ensemble (previous study)
  Also, to prevent from responding to the specific pattern of location, the fully-connected layer (location-biased convolution) were combined in front of the last 1x1 convolutionl layer.
@@ -18,7 +18,7 @@
  (2) Different size kernels in parallel by using the inception layer
  (3) Large receptive field to capture the global context of scenes for a saliency map
 
-- Interesting techniques, ideas and methods
+- Interesting techniques, ideas and methods<br>
 
  (1) The dilated convolution in the 5-th layer, which seems to aim to reduce the weight initialization tasks.
  However, Fisher and Vladlen [1] used this hole as the support for seeing a wide range of information while maintaining a high-frequency.
@@ -27,23 +27,23 @@
  (2) The LBC layers, which are dilated conv layers (6 hole), were introduced based on the neuroscience literature.
      
 
-- What is limitation I felt?
+- What is limitation I felt?<br>
 
-- Interesting hypothesis and analysis
+- Interesting hypothesis and analysis<br>
  Saliency is well-captured when the semantics are considered from multiple-scales.
  This may follow one hypothesis of visual working memory, which combines object details from different viewpoint to understand objects [2].
 
-- What would I want to know furthermore?
+- What would I want to know furthermore?<br>
  
 
-- Dataset
+- Dataset<br>
  SALICON, CAT2000, MIT1003, MIT300
  
-- Ebaluation method
+- Ebaluation method<br>
  The followings were applied: Earth Mover’s Distance, Normalized Scanpath Saliency, Linear Correlation Coefficient, Similarity metric, and AUC.
  Also, ablation analysis for the effect of LBD layers was done.
  
 
-- Citation
-  [Multi-Scale Context Aggregation by Dilated Convolutions](https://arxiv.org/abs/1511.07122v3)
-  [Visual working memory as visual attention sustained internally over time](https://pubmed.ncbi.nlm.nih.gov/21295047/)
+- Citation<br>
+  [Multi-Scale Context Aggregation by Dilated Convolutions](https://arxiv.org/abs/1511.07122v3)<br>
+  [Visual working memory as visual attention sustained internally over time](https://pubmed.ncbi.nlm.nih.gov/21295047/)<br>
