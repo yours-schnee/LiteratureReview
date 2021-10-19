@@ -31,11 +31,11 @@
 
 - What would I want to know furthermore?<br>
   - Whether saliency and classification match where they are looking
-    - Based on 
+    - Does the narrowing of the focus by a saliency make classifier hard to identify targets?
 
 - Dataset<br>
-  - 1st stage: SALICON (pretrained)
-  - 2nd stage: CAT2000, MIT1003, MIT300
+  - 1st stage: SALICON (pretraining)
+  - 2nd stage: CAT2000, MIT1003, MIT300 (train & test)
  
 - Initialization<br>
   - The first 16 Convolution layers: VGG16's weights
