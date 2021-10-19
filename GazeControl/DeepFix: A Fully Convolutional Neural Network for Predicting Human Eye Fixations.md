@@ -1,7 +1,6 @@
 ### 20211019
 
-## S. S. S. Kruthiventi, K. Ayush and R. V. Babu,
-## "DeepFix: A Fully Convolutional Neural Network for Predicting Human Eye Fixations," IEEE Transactions on Image Processing, vol. 26, (9), pp. 4446-4456, 2017
+## S. S. S. Kruthiventi, K. Ayush and R. V. Babu, "DeepFix: A Fully Convolutional Neural Network for Predicting Human Eye Fixations," IEEE Transactions on Image Processing, vol. 26, (9), pp. 4446-4456, 2017
 
 - Summary
  The bottom-up saliency approach using CNNs could automatically learn about target features, instead of the classical hand-crafted ones.
