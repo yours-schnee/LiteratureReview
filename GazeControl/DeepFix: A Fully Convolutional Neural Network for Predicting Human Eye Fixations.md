@@ -16,7 +16,7 @@
  
   - Large depths which enables to learn complex features from scenes (previous study utilized shallower network, so the semantic feature extracting seemed be difficult)<br>
   - Different size kernels in parallel by using the inception layer<br>
-  - Large receptive field to capture the global context of scenes for a saliency map<br>
+  - Large receptive field with a dilated conv to capture the global context of scenes for a saliency map<br>
 
 - Interesting techniques, ideas and methods<br>
  (1) The dilated convolution in the 5-th layer, which seems to aim to reduce the weight initialization tasks.
