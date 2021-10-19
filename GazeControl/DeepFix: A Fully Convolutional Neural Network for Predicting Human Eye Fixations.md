@@ -45,8 +45,8 @@
   - LBC layers: zero mean Gaussian distribution
 
 #### Ebaluation method<br>
- The followings were applied: Earth Mover’s Distance, Normalized Scanpath Saliency, Linear Correlation Coefficient, Similarity metric, and AUC.
- Also, ablation analysis for the effect of LBD layers was done.
+ - The followings were applied: Earth Mover’s Distance, Normalized Scanpath Saliency, Linear Correlation Coefficient, Similarity metric, and AUC.
+ - Ablation analysis for the effect of LBD layers was done.
  
 
 ### - Citation<br>
