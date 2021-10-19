@@ -7,15 +7,16 @@
  The ablation study showed that the LBC layers contributed to its performance rather than the traditional techniques of bias addition.
 
 - What is new? (or what is previous issue)<br>
- This study applied the very deep structure, which has the inception blocks that can provid the multi-scale semantic features, instead of the CNN ensemble (previous study).
+ This study applied the very deep structure, which has the inception blocks that can provid the multi-scale semantic features.
  The two fully-convolution layers with a dilated conv (LBS) layer were combined after inception block.
  This aims to prevent from responding to the specific pattern of location. <br>
  
    The author's keypoints are as follows,
  
    - Large depths which enables to learn complex features from scenes
-     - previous study utilized shallower network, and the semantic feature extracting was difficult<br>
+     - Previous study utilized shallower network, and the semantic feature extracting was difficult<br>
    - Different size kernels in parallel by using the inception layer<br>
+     - Previous one ensembled CNN output
    - Large receptive field by two dilated conv to capture the global context of scenes for a saliency map<br>
 
 - Interesting techniques, ideas and methods<br>
