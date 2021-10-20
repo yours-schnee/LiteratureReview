@@ -2,32 +2,28 @@
 
 ## N. Liu, J. Han, D. Zhang, S. Wen and T. Liu, "[Predicting eye fixations using convolutional neural networks (2015)](https://ieeexplore.ieee.org/document/7298633)"
 
-### Summary<br>
- - Ensembles of CNNs using different resolution but same images could learn about bottom-up saliency and top-down features and  improve the saliency accuracy. Feature visualization each layer confirmed that targetted features were contained. Also,
+### What did they do and how did they confirm?<br>
+ - Ensembles of CNNs using different resolution but same images could learn about bottom-up saliency and top-down features simultaneously and improve the saliency accuracy. Feature visualization each layer confirmed that targetted features were contained. Also, the effect from the number of resolutions and the number of convolution layers were investigated.
  
    - [Background]
      - As the backgwround, the previous researches used hand-crafted features, which could be difficult to apply to the different complex images.
-     - In those days, high-level info extraction was still hard for the representation limitation of shallower network (because GPU was developing, not having today's performance).
+     - High-level info extraction was still hard for the representation limitation of shallower network (because GPU was developing, not having today's performance).
 
 ### What is new? (or what is previous issue)<br>
- 
-   The author's keypoints are as follows,
- 
-   - Large depths which enables to learn complex features from scenes
-     - Previous study utilized shallower network, and the semantic feature extracting was difficult<br>
-   - Different size kernels in parallel by using the inception layer<br>
-     - Previous one ensembled CNN output
-   - Large receptive field by two dilated conv to capture the global context of scenes for a saliency map<br>
+
+ - Multi-resolution CNNs (ensemble of different resolution images) enabled to integrate low-level, bottom-up saliency and top-down factors at the same time.
 
 ### Interesting techniques, ideas and methods<br>
-     
+ - Same image regions of fixed size but different resolutions were extracteda and used as the input data.
 
 ### Interesting hypothesis and analysis<br>
+ - Ensemble of same images with different resolution looks like data-augmentation, though this model training also utilized horizental flipping.
 
 ### Waht is the limitation I think?<br>
  - The network used in the experiment was shallow (3 conv layers and 2 FC layers), and it looks like not having enough representation ability. The reason using such network seems to come from computational resource issue in those days.
 
 ### What would I want to know furthermore?<br>
+ - Latest saliency model using DNNs
 
 ### Experimental settings
 #### Dataset<br>
