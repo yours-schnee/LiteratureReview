@@ -1,6 +1,6 @@
 ### 20211019
 
-## N. Liu, J. Han, D. Zhang, S. Wen and T. Liu, "[Predicting eye fixations using convolutional neural networks (2015)](https://ieeexplore.ieee.org/document/7298633)"
+## N. Liu, J. Han, D. Zhang, S. Wen and T. Liu, "[Predicting eye fixations using convolutional neural networks](https://ieeexplore.ieee.org/document/7298633)," (2015)
 
 ### What did they do and how did they confirm?<br>
  - Ensembles of CNNs using different resolution but same images could learn about bottom-up saliency and top-down features simultaneously and improve the saliency accuracy. Feature visualization each layer confirmed that targetted features were contained. Also, the effect from the number of resolutions and the number of convolution layers were investigated.
