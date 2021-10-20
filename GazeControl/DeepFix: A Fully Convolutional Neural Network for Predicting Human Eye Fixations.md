@@ -1,6 +1,6 @@
 ### 20211019
 
-## S. S. S. Kruthiventi, K. Ayush and R. V. Babu, "[DeepFix: A Fully Convolutional Neural Network for Predicting Human Eye Fixations](https://ieeexplore.ieee.org/document/7937829) (2015)"
+## S. S. S. Kruthiventi, K. Ayush and R. V. Babu, "[DeepFix: A Fully Convolutional Neural Network for Predicting Human Eye Fixations](https://ieeexplore.ieee.org/document/7937829)," (2015)
 
 ### What did they do and how did they confirm?<br>
  Whether the wide-range information by the location-biased convolution (LBC) layers could improve a saliency map was investigated.
