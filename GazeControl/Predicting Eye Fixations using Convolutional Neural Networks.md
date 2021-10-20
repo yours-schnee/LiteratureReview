@@ -14,7 +14,7 @@
  - Multi-resolution CNNs (ensemble of different resolution images) enabled to integrate low-level, bottom-up saliency and top-down factors at the same time.
 
 ### Interesting techniques, ideas and methods<br>
- - Same image regions of fixed size but different resolutions were extracteda and used as the input data.
+ - Same image regions of fixed size but different resolutions were extracted and used as the input data. It looks like image pyramid network [1]
 
 ### Interesting hypothesis and analysis<br>
  - Ensemble of same images with different resolution looks like data-augmentation, though this model training also utilized horizental flipping.
