@@ -13,6 +13,8 @@
   - Decoder is learnable because of preferablity to the previous fixed interpolation kernel
   - Decrease computational load due to dimension reduction (decoder's general nature)
 
+
+
 ### Interesting techniques, ideas and methods<br>
  - Fusion of three intermediate layer outputs are simply multiplied by trainable weights and finally merged.
 
