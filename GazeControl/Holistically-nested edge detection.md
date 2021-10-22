@@ -8,7 +8,8 @@
     - [Background]: less meaningful multi-scale responses provided by patch-based edge detection of CNNs because back-projection through the intermediate layer downgrades. This comes from the demand of edge detection that needs accurate edge pixel localization
 
 ### What is new? (or what is previous issue)<br>
-  - Like ensemble, VGG-16 intermediate layers are connected to side output layer to trim target edges by each layer (conv1_2, conv2_2, conv3_3, conv4_3, and conv5_3)
+  - Like ensemble, VGG-16 intermediate layers are connected to side output layer to trim target edges by each layer (conv1_2, conv2_2, conv3_3, conv4_3, and conv5_3)<br>
+  
 ![Architecture](https://github.com/yours-schnee/LiteratureReview/blob/imgs/imgs/Holistically-nested_edge_detection.png?raw=true)
 
 
