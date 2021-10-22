@@ -25,7 +25,7 @@
   (But this study set the purpose as predicting human eye traking [1])
 
 ### What would I want to know furthermore?<br>
- - Other adopted netwrok like [1] and [2]
+ - Other adopted netwrok like [2] and [3]
 
 ### Experimental settings
 #### Dataset<br>
@@ -49,6 +49,6 @@
  - shuffled-AUC
 
 ### My Citation<br>
- [1] [Salient Object Detection: A Benchmark](https://ieeexplore.ieee.org/abstract/document/7293665?casa_token=Amwukp6MlIQAAAAA:L5erpcJswXlxjkm2OAnsoN_b-ELrJN9LU72LtTcAxDXoPvhDeRqf7cZgcCQCSFlMOWApzwYyXvk)
- [2] [Holistically-nested edge detection](https://openaccess.thecvf.com/content_iccv_2015/html/Xie_Holistically-Nested_Edge_Detection_ICCV_2015_paper.html)
+ [1] [Salient Object Detection: A Benchmark](https://ieeexplore.ieee.org/abstract/document/7293665?casa_token=Amwukp6MlIQAAAAA:L5erpcJswXlxjkm2OAnsoN_b-ELrJN9LU72LtTcAxDXoPvhDeRqf7cZgcCQCSFlMOWApzwYyXvk)<br>
+ [2] [Holistically-nested edge detection](https://openaccess.thecvf.com/content_iccv_2015/html/Xie_Holistically-Nested_Edge_Detection_ICCV_2015_paper.html)<br>
  [3] [Deeply-Supervised Nets](http://proceedings.mlr.press/v38/lee15a.html)
