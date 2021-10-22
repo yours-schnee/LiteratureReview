@@ -18,7 +18,7 @@
 
 ### Interesting hypothesis and analysis<br>
  - Due to the large depth and multi-level features, generated saliency maps were very localized rather than other comparator models.
- - In ablation study, average prediction of multi-layer outouts overcame a single-layer outputs, and the combination between multi-scale prediction could improve s-AUC of saliency map.
+ - In ablation study, average prediction of multi-layer outouts overcame a single-layer outputs, and the combination between multi-scale prediction could improve s-AUC of saliency map more.
 
 ### Waht is the limitation I think?<br>
  - As the authors said, generated saliency maps limited to very local positions, and it looks like having the difficulty for object detection.
