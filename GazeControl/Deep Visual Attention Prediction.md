@@ -13,7 +13,7 @@
   - Decoder is learnable because of preferablity to the previous fixed interpolation kernel
   - Decrease computational load due to dimension reduction (decoder's general nature)
 
-![Architecture](https://github.com/yours-schnee/LiteratureReview/blob/imgs/imgs/Deep Visual Attention Prediction.png?raw=true)
+![Architecture](https://github.com/yours-schnee/LiteratureReview/blob/imgs/imgs/DeepVisualAttentionPrediction.png.png?raw=true)
 
 ### Interesting techniques, ideas and methods<br>
  - Fusion of three intermediate layer outputs are simply multiplied by trainable weights and finally merged.
