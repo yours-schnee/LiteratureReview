@@ -40,6 +40,3 @@
 ![ACC<sub>CC</sub><sub>K/N</sub>](https://github.com/yours-schnee/LiteratureReview/blob/imgs/imgs/ACCKN.png?raw=true)
 
 ### My Citation<br>
- [1] [Salient Object Detection: A Benchmark](https://ieeexplore.ieee.org/abstract/document/7293665?casa_token=Amwukp6MlIQAAAAA:L5erpcJswXlxjkm2OAnsoN_b-ELrJN9LU72LtTcAxDXoPvhDeRqf7cZgcCQCSFlMOWApzwYyXvk)<br>
- [2] [Holistically-nested edge detection](https://openaccess.thecvf.com/content_iccv_2015/html/Xie_Holistically-Nested_Edge_Detection_ICCV_2015_paper.html)<br>
- [3] [Deeply-Supervised Nets](http://proceedings.mlr.press/v38/lee15a.html)
