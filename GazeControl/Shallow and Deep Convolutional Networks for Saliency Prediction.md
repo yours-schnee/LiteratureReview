@@ -3,12 +3,8 @@
 J. Pan, K. McGuinness, E. Sayrol, N. O'Connor, X. Giro-i-Nieto, "[Shallow and Deep Convolutional Networks for Saliency Prediction](https://arxiv.org/abs/1603.00845v1)," (2016)
 
 ### What did they do and how did they confirm?<br>
- - Proposed frameworks to interprete deep representation and evaluate the interpretability through disentagled representations, which is a visualization method between each hidden unit and a set of semantic concepts by using a broadly and densely labeled dataset.
- - Scored by Unit Interpretability (IoU, unique detector) as follows,
-
-![Example](https://github.com/yours-schnee/LiteratureReview/blob/imgs/imgs/IoU.png?raw=true)
-
-   where L<sub>c</sub>(x) is input-resolution annotation mask and M<sub>k</sub>(x) is a thresholded binary segmentation.
+ - Comparison with shallower and deeper saliency prediction models that are end-to-end trained.
+ - Showing the validity of using pretrained models on classificationtasks to saliency prediction.
 
 ### What is new? (or what is previous issue)<br>
  - Compared with the previous studies that used hand-crafted features, CNN-based saliency
